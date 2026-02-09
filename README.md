@@ -1,57 +1,59 @@
-# Welcome to your Lovable project
+# 🧑‍💼 HRMS Lite – Full Stack Application
 
-## Project info
+HRMS Lite is a lightweight **Human Resource Management System** designed to manage employee records and track daily attendance.  
+This project simulates a basic internal HR tool with a clean UI and essential HR functionalities.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🚀 Live Demo
 
-There are several ways of editing your application.
+- **Frontend URL:** https://hr-manager-mocha.vercel.app/
+- **GitHub Repository:** 
 
+---
 
+## 📌 Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 👤 Employee Management
+- Add new employees
+- View all employees
+- Delete an employee
+- Prevent duplicate Employee ID or Email
+- Server-side validations
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 📅 Attendance Management
+- Mark attendance (Present / Absent)
+- Select attendance date
+- View attendance records per employee
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🎨 UI/UX
+- Clean and professional layout
+- Loading states
+- Empty states
+- Error handling with meaningful messages
+- Reusable components
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠 Tech Stack
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
+### Frontend
+- React
 - Vite
 - TypeScript
-- React
-- shadcn-ui
 - Tailwind CSS
+- shadcn/ui
+- Axios
 
-## How can I deploy this project?
+### Backend
+- Node.js
+- Express.js
+- RESTful APIs
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Database
+- MongoDB (MongoDB Atlas)
 
-## Can I connect a custom domain to my Lovable project?
+### Deployment
+- Frontend: Vercel
+- Backend: Render
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
