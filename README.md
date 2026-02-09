@@ -8,7 +8,7 @@ This project simulates a basic internal HR tool with a clean UI and essential HR
 ## 🚀 Live Demo
 
 - **Frontend URL:** https://hr-manager-mocha.vercel.app/
-- **GitHub Repository:** 
+- **GitHub Repository:** https://github.com/Vishnuji-123/hr-manager/tree/main 
 
 ---
 
